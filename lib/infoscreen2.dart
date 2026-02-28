@@ -6,13 +6,13 @@ class InfoScreen extends StatelessWidget {
   final String appTitle = 'UK DCD Risk Score';
   final String about =
       'This app is designed to complement the publication of the UK DCD Risk Score as described in the reference below. It is not intended to be a definitive '
-      'means of prognostication. There may be other factors beyond those included in this tool that impact transplant outcomes.';
+      'means of prognostication. Much has changed since this algorithm.  Evidence suggests that centers can be more aggressive now - especially with the new technologies. Newer assessment calculators are available and should be used for clinical decision making.';
   final String disclaimer =
       'The calculations performed by this app are based on the work of the authors in the reference.';
   final String reference =
       'Schlegel A, Kalisvaart M, Scalera I, Laing RW, Mergental H, Mirza DF, Perera T, Isaac J, Dutkowski P, Muiesan P. J Hepatol. 2018 Mar;68(3):456-464. doi: 10.1016/j.jhep.2017.10.034. Epub 2017 Nov 15.';
   final String developer =
-      "App developed by Marc L. Melcher, MD, PhD, Assoc. Prof. of Surgery, Stanford Univ.";
+      "App developed by Marc L. Melcher, MD, PhD, Prof. of Surgery, Stanford Univ.";
 
   Widget _buildSection(String title, String content, {bool isSmall = false}) {
     return Padding(
